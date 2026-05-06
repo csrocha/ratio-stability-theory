@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# RST — datos pesados (no versionar archivos de datos)
+data/raw/*
+data/processed/*
+data/database/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/database/.gitkeep
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
